@@ -18,7 +18,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Navigation 실습 앱입니다."
+        android:text="2021111005 정재현 Navigation 실습"
         android:textSize="18sp"
         android:layout_marginTop="20dp" />
 
