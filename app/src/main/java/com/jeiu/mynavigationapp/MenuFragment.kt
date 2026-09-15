@@ -44,10 +44,10 @@ class MenuFragment : Fragment() {
 
         // 나중에 버튼 이벤트 작성
         binding.btnAndroid.setOnClickListener {
-            moveToDetail("떡볶이")
+            moveToDetail("떡볶이", "9000")
         }
         binding.btnKotlin.setOnClickListener {
-            moveToDetail("김밥")
+            moveToDetail("김밥", "5000")
         }
         binding.btnBackHome.setOnClickListener {
             findNavController().popBackStack()
@@ -57,14 +57,14 @@ class MenuFragment : Fragment() {
 
     }
 
-    private fun moveToDetail(subjectText : String){
+    private fun moveToDetail(subjectText : String, priceText : String){
         val bundle = Bundle()
         bundle.putString(
             "subject",   // key
             subjectText    // value
         )
-        bundle.putString("menuName", "김치찌개")   // key, value
-        bundle.putString("price", "9000")          // key, value
+        bundle.putString("menuName", subjectText)   // key, value
+        bundle.putString("price", priceText)        // key, value
 
         findNavController().navigate(
             R.id.action_menuFragment_to_detailFragment
