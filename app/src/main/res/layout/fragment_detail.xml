@@ -30,11 +30,4 @@
         android:text="이전 화면"
         android:layout_marginTop="30dp" />
 
-    <Button
-        android:id="@+id/btnNext"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="결과 화면으로"
-        android:layout_marginTop="10dp" />
-
 </LinearLayout>

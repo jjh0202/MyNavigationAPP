@@ -41,13 +41,6 @@ class DetailFragment : Fragment() {
         binding.btnBack.setOnClickListener {
             findNavController().popBackStack()  //아전화면
         }
-        binding.btnNext.setOnClickListener {
-            val bundle = Bundle()
-            bundle.putString("subject", subject)
-            findNavController().navigate(
-                R.id.action_detailFragment_to_resultFragment, bundle
-            )
-        }
     }
 
 
