@@ -48,9 +48,10 @@ class DetailFragment : Fragment() {
         }
         binding.btnNext.setOnClickListener {
             val bundle = Bundle()
-            bundle.putString("subject", subject)
+            bundle.putString("menuName", menuName)   // key, value
+            bundle.putString("price", price)         // key, value
             findNavController().navigate(
-                R.id.action_detailFragment_to_resultFragment, bundle
+                R.id.action_detailFragment_to_cartFragment, bundle
             )
         }
     }

@@ -11,22 +11,22 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="하윤이네 식당"
-        android:textSize="32sp"
+        android:text="ORDER COMPLETE"
+        android:textSize="28sp"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2021111005 정재현 Navigation 실습"
+        android:text="주문이 완료되었습니다."
         android:textSize="18sp"
         android:layout_marginTop="20dp" />
 
     <Button
-        android:id="@+id/btnMoveMenu"
+        android:id="@+id/btnGoHome"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="메뉴 보기"
+        android:text="처음으로"
         android:layout_marginTop="30dp" />
 
 </LinearLayout>

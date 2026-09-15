@@ -43,12 +43,6 @@ class HomeFragment : Fragment() {
                 R.id.action_homeFragment_to_menuFragment
             )
         }
-
-        binding.btnMoveInfo.setOnClickListener {
-            findNavController().navigate(
-                R.id.action_homeFragment_to_infoFragment
-            )
-        }
     }
 
 

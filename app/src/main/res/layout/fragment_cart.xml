@@ -11,22 +11,38 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="하윤이네 식당"
+        android:text="CART"
         android:textSize="32sp"
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/txtCartMenuName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2021111005 정재현 Navigation 실습"
+        android:text="메뉴명"
         android:textSize="18sp"
         android:layout_marginTop="20dp" />
 
+    <TextView
+        android:id="@+id/txtCartPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가격"
+        android:textSize="18sp"
+        android:layout_marginTop="4dp" />
+
     <Button
-        android:id="@+id/btnMoveMenu"
+        android:id="@+id/btnCartBack"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="메뉴 보기"
+        android:text="이전 화면"
         android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="주문하기"
+        android:layout_marginTop="10dp" />
 
 </LinearLayout>
