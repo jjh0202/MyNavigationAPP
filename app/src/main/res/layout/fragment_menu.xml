@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="메뉴 목록"
+        android:text="MENU"
         android:textSize="32sp"
         android:textStyle="bold" />
 
@@ -26,14 +26,14 @@
         android:id="@+id/btnAndroid"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="메뉴 상세보기"
+        android:text="Android"
         android:layout_marginTop="30dp" />
 
     <Button
         android:id="@+id/btnKotlin"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="메뉴 상세보기"
+        android:text="Kotlin"
         android:layout_marginTop="10dp" />
 
     <Button
