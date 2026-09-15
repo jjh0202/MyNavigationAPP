@@ -44,10 +44,10 @@ class MenuFragment : Fragment() {
 
         // 나중에 버튼 이벤트 작성
         binding.btnAndroid.setOnClickListener {
-            moveToDetail("Android")
+            moveToDetail("떡볶이")
         }
         binding.btnKotlin.setOnClickListener {
-            moveToDetail("Kotlin")
+            moveToDetail("김밥")
         }
         binding.btnBackHome.setOnClickListener {
             findNavController().popBackStack()

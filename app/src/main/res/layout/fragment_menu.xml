@@ -26,14 +26,14 @@
         android:id="@+id/btnAndroid"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Android"
+        android:text="떡볶이"
         android:layout_marginTop="30dp" />
 
     <Button
         android:id="@+id/btnKotlin"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Kotlin"
+        android:text="김밥"
         android:layout_marginTop="10dp" />
 
     <Button
