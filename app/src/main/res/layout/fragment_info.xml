@@ -11,29 +11,22 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HOME"
+        android:text="INFO"
         android:textSize="32sp"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2021111005 정재현 Navigation 실습"
+        android:text="Navigation 실습 앱 정보 화면입니다."
         android:textSize="18sp"
         android:layout_marginTop="20dp" />
 
     <Button
-        android:id="@+id/btnMoveMenu"
+        android:id="@+id/btnInfoBack"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="메뉴 보기"
+        android:text="이전 화면"
         android:layout_marginTop="30dp" />
-
-    <Button
-        android:id="@+id/btnMoveInfo"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="정보 보기"
-        android:layout_marginTop="10dp" />
 
 </LinearLayout>

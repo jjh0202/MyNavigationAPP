@@ -20,6 +20,10 @@
             android:id="@+id/action_homeFragment_to_menuFragment"
             app:destination="@id/menuFragment" />
 
+        <action
+            android:id="@+id/action_homeFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+
     </fragment>
 
 
@@ -41,6 +45,33 @@
         android:name="com.jeiu.mynavigationapp.DetailFragment"
         android:label="Detail"
         tools:layout="@layout/fragment_detail">
+
+        <argument
+            android:name="subject"
+            app:argType="string"
+            android:defaultValue="선택 없음" />
+
+        <action
+            android:id="@+id/action_detailFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.jeiu.mynavigationapp.InfoFragment"
+        android:label="Info"
+        tools:layout="@layout/fragment_info">
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.jeiu.mynavigationapp.ResultFragment"
+        android:label="Result"
+        tools:layout="@layout/fragment_result">
 
         <argument
             android:name="subject"
