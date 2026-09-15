@@ -63,6 +63,8 @@ class MenuFragment : Fragment() {
             "subject",   // key
             subjectText    // value
         )
+        bundle.putString("menuName", "김치찌개")   // key, value
+        bundle.putString("price", "9000")          // key, value
 
         findNavController().navigate(
             R.id.action_menuFragment_to_detailFragment

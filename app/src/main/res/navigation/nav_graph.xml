@@ -51,6 +51,16 @@
             app:argType="string"
             android:defaultValue="선택 없음" />
 
+        <argument
+            android:name="menuName"
+            app:argType="string"
+            android:defaultValue="선택 없음" />
+
+        <argument
+            android:name="price"
+            app:argType="string"
+            android:defaultValue="0" />
+
         <action
             android:id="@+id/action_detailFragment_to_resultFragment"
             app:destination="@id/resultFragment" />

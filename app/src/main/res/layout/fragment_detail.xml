@@ -23,6 +23,22 @@
         android:textSize="22sp"
         android:layout_marginTop="30dp" />
 
+    <TextView
+        android:id="@+id/txtMenuName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="메뉴명"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가격"
+        android:textSize="18sp"
+        android:layout_marginTop="4dp" />
+
     <Button
         android:id="@+id/btnBack"
         android:layout_width="200dp"

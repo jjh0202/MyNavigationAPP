@@ -38,6 +38,11 @@ class DetailFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val subject  =  arguments?.getString("subject") ?: "선택없음"
         binding.txtResult.text = "선택한 항목: $subject"
+
+        val menuName = arguments?.getString("menuName") ?: "선택없음"
+        val price = arguments?.getString("price") ?: "0"
+        binding.txtMenuName.text = "메뉴명: $menuName"
+        binding.txtPrice.text = "가격: ${price}원"
         binding.btnBack.setOnClickListener {
             findNavController().popBackStack()  //아전화면
         }
